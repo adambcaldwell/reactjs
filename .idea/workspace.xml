@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectId" id="1YB373zpmzWeQXIEAPoH69jVFON" />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mut-ui-140" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\adamc\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="KBAN-10796 - branching for work on code sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="KBAN-10796 - branching for work on code sync" />
+  </component>
+</project>
