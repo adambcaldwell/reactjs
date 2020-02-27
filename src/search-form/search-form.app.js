@@ -4,7 +4,7 @@ import SearchBar from "./components/search-bar/search-bar.component";
 import SearchResults from "./components/search-results/search-results.component";
 
 /**
- * Search Form App
+ * Search Form CommentsApp
  * @author adam.caldwell
  */
 

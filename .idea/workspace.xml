@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2b25ec-1c00-464d-b65a-ce4bb1fe23ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search-form/api/unsplash-api.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search-form/components/result-card/result-card.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search-form/components/search-bar/search-bar.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search-form/components/search-results/search-results.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search-form/components/search-results/search-results.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search-form/search-form.app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/season-display/season.app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/season-display/season.app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comments/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comments/comments.app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comments/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search-form/api/unsplash-api.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/search-form/api/unsplash-api.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search-form/search-form.app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/search-form/search-form.app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/season-display/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -103,8 +100,17 @@
       <updated>1582401989891</updated>
       <workItem from="1582401992748" duration="27457000" />
       <workItem from="1582560948707" duration="4602000" />
-      <workItem from="1582742255808" duration="15786000" />
+      <workItem from="1582742255808" duration="16129000" />
+      <workItem from="1582818641640" duration="1295000" />
     </task>
+    <task id="LOCAL-00001" summary="worked through search form tutorial">
+      <created>1582762449126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582762449126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,17 +119,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="KBAN-10796 - branching for work on code sync" />
     <MESSAGE value="worked through comments &amp; season display tutorials" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked through comments &amp; season display tutorials" />
+    <MESSAGE value="worked through search form tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked through search form tutorial" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="905" y="299" width="1162" height="812" key="CommitChangelistDialog2" timestamp="1582517933867">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="130" y="63" width="1512" height="894" key="CommitChangelistDialog2" timestamp="1582762447852">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="130" y="63" width="1512" height="894" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582762447852" />
     <state x="905" y="299" width="1162" height="812" key="CommitChangelistDialog2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582517933867" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1582762462859">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582762462859" />
     <state x="781" y="347" key="SettingsEditor" timestamp="1582404118753">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="781" y="347" key="SettingsEditor/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582404118753" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1582762481184">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582762481184" />
     <state x="911" y="402" width="737" height="606" key="find.popup" timestamp="1582412955223">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -141,7 +157,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/comments/App.js</url>
+          <url>file://$PROJECT_DIR$/src/comments/comments.app.js</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

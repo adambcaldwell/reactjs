@@ -3,7 +3,7 @@ import faker from "faker";
 import CommentDetail from "./comment-detail.component";
 import ApprovalCard from "./approval-card.component";
 
-function App() {
+function CommentsApp() {
   return (
     <body>
       <div className="ui container comments">
@@ -38,4 +38,4 @@ function App() {
   );
 }
 
-export default App;
+export default CommentsApp;
