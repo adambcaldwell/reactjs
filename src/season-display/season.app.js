@@ -29,7 +29,7 @@ import Spinner from "./spinner.component";
 class SeasonApp extends React.Component {
   /**
    * Alternate way to initialize the constructor via shorthand (this works because of babel)
-   * state = { lat: null, lng: null, errorMessage: null };
+   * state = { lat: null, lng: null, errorMessage: null };0
    *
    * @constructor
    * @param {Object} props - properties to pass to super();

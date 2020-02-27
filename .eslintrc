@@ -12,11 +12,18 @@
   },
   "rules": {
     "max-len": ["error", {"code": 120}],
+    "yoda": ["error", "always"],
+    "arrow-spacing": "error",
+    "no-duplicate-imports": "error",
+    "no-useless-rename": "error",
+    "no-trailing-spaces": "error",
     "prefer-promise-reject-errors": ["off"],
     "react/jsx-filename-extension": ["off"],
     "react/prop-types": 0,
     "react/destructuring-assignment": ["off"],
     "react/jsx-one-expression-per-line": ["off"],
-    "no-return-assign": ["off"]
+    "react/jsx-max-props-per-line" : [1, { "when": "multiline", "maximum": 3 }],
+    "no-return-assign": ["off"],
+    "jsx-a11y/label-has-associated-control": 0 // setting this to 0 since it constantly complains
   }
 }
