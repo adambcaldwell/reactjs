@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Component } from 'react';
 
 /**
- * @component
+ * @component class
  * @name SearchBar
  * @author adam.caldwell
  */
-class SearchBar extends React.Component {
+class SearchBar extends Component {
   constructor(props) {
     super(props);
 
@@ -30,15 +30,17 @@ class SearchBar extends React.Component {
           <div className="field">
             <label htmlFor="search">Image Search</label>
             <input
-              type="text" id="search" className="field"
-              value={this.state.term} onChange={e => this.setState({ term: e.target.value })}
+              type="text"
+              id="search"
+              className="field"
+              value={this.state.term}
+              onChange={e => this.setState({ term: e.target.value })}
             />
           </div>
         </form>
       </div>
     );
   }
-
 }
 
 export default SearchBar;

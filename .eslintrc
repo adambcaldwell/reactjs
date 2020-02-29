@@ -8,6 +8,7 @@
       "jsx": true
     }
   },
+  "plugins": ["prettier"],
   "extends": [
     "airbnb",
     "prettier",
@@ -18,6 +19,15 @@
     "jest": true
   },
   "rules": {
+    "prettier/prettier": ["error",
+      {
+        "bracketSpacing": true,
+        "singleQuote": true,
+        "semi": true,
+        "tabWidth": 2
+      }
+    ],
+    "array-bracket-spacing": "warn",
     "max-len": ["error", {"code": 120}],
     "no-useless-rename": "error",
     "no-return-assign": ["off"],

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 
 /**
  * @component
@@ -7,8 +7,7 @@ import React from "react";
  * @author adam.caldwell
  */
 
-class ResultCard extends React.Component {
-
+class ResultCard extends Component {
   constructor(props) {
     super(props);
 
@@ -33,12 +32,11 @@ class ResultCard extends React.Component {
     const { description, urls } = this.props.image;
 
     return (
-      <div style={{ gridRowEnd: `span ${this.state.spans}`}}>
+      <div style={{ gridRowEnd: `span ${this.state.spans}` }}>
         <img ref={this.imageRef} alt={description} src={urls.regular} />
       </div>
     );
   }
-
 }
 
 export default ResultCard;

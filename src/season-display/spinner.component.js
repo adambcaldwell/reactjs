@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 /**
  * @component functional
@@ -15,7 +15,7 @@ const Spinner = props => {
 
 // Setting a default for the props to display when no message is passed in
 Spinner.defaultProps = {
-  message: "Loading..."
+  message: 'Loading...'
 };
 
 export default Spinner;

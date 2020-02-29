@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec2b25ec-1c00-464d-b65a-ce4bb1fe23ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux-part-one-songs/components/sing-detail.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-part-one-songs/components/song-list.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-part-one-songs/redux/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-part-one-songs/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-part-one-songs/songs-redux.app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/blog-posts-redux.app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/post-list.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/index.js" afterDir="false" />
+    <list default="true" id="ec2b25ec-1c00-464d-b65a-ce4bb1fe23ff" name="Default Changelist" comment="worked through redux tutorials, updating some eslint rules">
       <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comments/approval-card.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comments/approval-card.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comments/comment-detail.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comments/comment-detail.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comments/comments.app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comments/comments.app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-one-songs/components/sing-detail.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-one-songs/components/song-detail.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-one-songs/components/song-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-one-songs/components/song-list.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-one-songs/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-one-songs/redux/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-one-songs/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-one-songs/redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-one-songs/songs-redux.app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-one-songs/songs-redux.app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/blog-posts-redux.app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/blog-posts-redux.app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/post-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/post-list.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search-form/api/unsplash-api.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/search-form/api/unsplash-api.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search-form/components/result-card/result-card.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/search-form/components/result-card/result-card.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search-form/components/search-bar/search-bar.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/search-form/components/search-bar/search-bar.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search-form/components/search-results/search-results.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/search-form/components/search-results/search-results.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search-form/search-form.app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/search-form/search-form.app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/season-display/season-display.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/season-display/season-display.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/season-display/season.app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/season-display/season.app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/season-display/spinner.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/season-display/spinner.component.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +47,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="2e62e169-2ebb-4740-af4a-0f351f813598" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -118,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582762449126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="worked through redux tutorials, updating some eslint rules">
+      <created>1582948089547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582948089547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,18 +149,19 @@
     <MESSAGE value="KBAN-10796 - branching for work on code sync" />
     <MESSAGE value="worked through comments &amp; season display tutorials" />
     <MESSAGE value="worked through search form tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked through search form tutorial" />
+    <MESSAGE value="worked through redux tutorials, updating some eslint rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked through redux tutorials, updating some eslint rules" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="987" y="153" width="1373" height="967" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1582932750556">
+    <state x="987" y="153" width="1373" height="967" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1582949347086">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="987" y="153" width="1373" height="967" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582932750556" />
-    <state x="130" y="63" width="1512" height="894" key="CommitChangelistDialog2" timestamp="1582762447852">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="987" y="153" width="1373" height="967" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582949347086" />
+    <state x="905" y="299" width="1512" height="894" key="CommitChangelistDialog2" timestamp="1582948166136">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="130" y="63" width="1512" height="894" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582762447852" />
-    <state x="905" y="299" width="1162" height="812" key="CommitChangelistDialog2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582517933867" />
+    <state x="905" y="299" width="1162" height="812" key="CommitChangelistDialog2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582948166136" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1582762462859">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -148,14 +170,23 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1060" y="459" key="FileChooserDialogImpl/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582932706422" />
+    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose" timestamp="1582948193873">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582948193873" />
     <state x="781" y="347" key="SettingsEditor" timestamp="1582404118753">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="781" y="347" key="SettingsEditor/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582404118753" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1582762481184">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="736" y="345" key="Vcs.Push.Dialog.v2" timestamp="1582948170974">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582762481184" />
+    <state x="736" y="345" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582948170974" />
+    <state x="1089" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582948883486">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1089" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582948883486" />
     <state x="911" y="402" width="737" height="606" key="find.popup" timestamp="1582412955223">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -168,15 +199,5 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1209" y="394" key="search.everywhere.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582402530768" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/comments/comments.app.js</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

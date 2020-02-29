@@ -1,5 +1,5 @@
-import React from "react";
-import PostList from "./components/post-list.component";
+import React from 'react';
+import PostList from './components/post-list.component';
 
 /**
  * @component functional
@@ -15,4 +15,4 @@ const BlogPosts = () => {
   );
 };
 
-export default BlogPosts
+export default BlogPosts;

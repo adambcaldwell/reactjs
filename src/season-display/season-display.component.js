@@ -1,5 +1,5 @@
-import "./season-display.css";
-import React from "react";
+import './season-display.css';
+import React from 'react';
 
 /**
  * @description Object to clean up the functional component code
@@ -7,12 +7,12 @@ import React from "react";
  */
 const seasonConfig = {
   summer: {
-    text: "Lets hit the beach",
-    iconName: "sun"
+    text: 'Lets hit the beach',
+    iconName: 'sun'
   },
   winter: {
     text: "Burr it's chilly!",
-    iconName: "snowflake"
+    iconName: 'snowflake'
   }
 };
 
@@ -23,9 +23,9 @@ const seasonConfig = {
  * @returns {string}      - winter|summer
  */
 const getSeason = (lat, month) => {
-  if (month > 2 && month < 9) return lat > 0 ? "summer" : "winter";
+  if (2 < month && 9 > month) return 0 < lat ? 'summer' : 'winter';
 
-  return lat > 0 ? "winter" : "summer";
+  return 0 < lat ? 'winter' : 'summer';
 };
 
 /**

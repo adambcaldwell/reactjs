@@ -1,5 +1,5 @@
-import React from "react";
-import ResultCard from "../result-card/result-card.component";
+import React, { Component } from 'react';
+import ResultCard from '../result-card/result-card.component';
 import './search-results.css';
 
 /**
@@ -9,20 +9,15 @@ import './search-results.css';
  * @author adam.caldwell
  */
 
-class SearchResults extends React.Component {
-
+class SearchResults extends Component {
   renderImages() {
-    return this.props.images.map((image) => {
-      return <ResultCard key={image.id} image={image} />
-    })
+    return this.props.images.map(image => {
+      return <ResultCard key={image.id} image={image} />;
+    });
   }
 
   render() {
-    return (
-      <div className="image-list">
-        {this.renderImages()}
-      </div>
-    );
+    return <div className="image-list">{this.renderImages()}</div>;
   }
 }
 

@@ -1,7 +1,7 @@
-import React from "react";
-import faker from "faker";
-import CommentDetail from "./comment-detail.component";
-import ApprovalCard from "./approval-card.component";
+import React from 'react';
+import faker from 'faker';
+import CommentDetail from './comment-detail.component';
+import ApprovalCard from './approval-card.component';
 
 function CommentsApp() {
   return (

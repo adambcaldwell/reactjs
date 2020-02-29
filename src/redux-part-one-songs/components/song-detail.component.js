@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { connect } from 'react-redux';
 
 /**
@@ -8,8 +8,8 @@ import { connect } from 'react-redux';
  * @author adam.caldwell
  */
 const SongDetail = ({ song }) => {
-  if(!song) {
-    return <div>Select a song</div>
+  if (!song) {
+    return <div>Select a song</div>;
   }
 
   return (
@@ -22,8 +22,8 @@ const SongDetail = ({ song }) => {
   );
 };
 
-const mapStateToProps = (state) => {
-  return { song : state.selectedSong };
+const mapStateToProps = state => {
+  return { song: state.selectedSong };
 };
 
 export default connect(mapStateToProps)(SongDetail);

@@ -1,6 +1,6 @@
-import React from "react";
-import SongList from "./components/song-list.component";
-import SongDetail from "./components/sing-detail.component";
+import React from 'react';
+import SongList from './components/song-list.component';
+import SongDetail from './components/song-detail.component';
 
 /**
  * @component functional

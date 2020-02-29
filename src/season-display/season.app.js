@@ -1,6 +1,6 @@
-import React from "react";
-import SeasonDisplay from "./season-display.component";
-import Spinner from "./spinner.component";
+import React from 'react';
+import SeasonDisplay from './season-display.component';
+import Spinner from './spinner.component';
 
 /**
  * @name SeasonApplication
