@@ -1,3 +1,5 @@
+import jsonPlaceholder from '../../apis/json-placeholder.api';
+
 /**
  * Redux action creators
  *
@@ -5,10 +7,9 @@
  */
 
 /* eslint-disable-next-line import/prefer-default-export */
-export const action = value => {
-  // Return an action
-  return {
-    type: 'BOGUS_ACTION',
-    payload: value
-  };
+export const fetchPosts = () => async dispatch => {
+  const response = await jsonPlaceholder.get('/posts');
+
+  // dispatch the action
+  dispatch({ type: 'FETCH_POSTS', payload: response });
 };

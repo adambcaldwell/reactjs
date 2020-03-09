@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { fetchPosts } from '../redux/actions';
 
 /**
  * @component class
@@ -9,9 +11,13 @@ import React, { Component } from 'react';
  */
 /* eslint-disable-next-line react/prefer-stateless-function */
 class PostList extends Component {
+  componentDidMount() {
+    this.props.fetchPosts();
+  }
+
   render() {
     return <div className="ui list">PostList</div>;
   }
 }
 
-export default PostList;
+export default connect(null, { fetchPosts })(PostList);
