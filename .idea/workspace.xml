@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2b25ec-1c00-464d-b65a-ce4bb1fe23ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/author-header.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/users.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/apis/json-placeholder.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/apis/json-placeholder.api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/author-header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/author-header.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/post-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/post-list.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/posts.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/posts.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search-form/api/unsplash-api.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/search-form/api/unsplash-api.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/users.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/users.reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +24,9 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="ReactJS Component (class)" />
         <option value="Redux Reducer" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -110,6 +111,12 @@
       <workItem from="1583165764066" duration="2012000" />
       <workItem from="1583269844088" duration="599000" />
       <workItem from="1583774885922" duration="15237000" />
+      <workItem from="1583936418398" duration="2572000" />
+      <workItem from="1584369765123" duration="11747000" />
+      <workItem from="1585075742737" duration="2190000" />
+      <workItem from="1585144202280" duration="2442000" />
+      <workItem from="1585238938065" duration="2396000" />
+      <workItem from="1585319619697" duration="8976000" />
     </task>
     <task id="LOCAL-00001" summary="worked through search form tutorial">
       <created>1582762449126</created>
@@ -156,22 +163,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582819994139" />
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1583776109066">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2539" height="266" key="GridCell.Tab.0.bottom" timestamp="1583885284160">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583776109066" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1583776109066">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2539" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1583885284160" />
+    <state width="2539" height="266" key="GridCell.Tab.0.center" timestamp="1583885284159">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583776109066" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1583776109066">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2539" height="266" key="GridCell.Tab.0.center/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1583885284159" />
+    <state width="2539" height="266" key="GridCell.Tab.0.left" timestamp="1583885284159">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583776109066" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1583776109066">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2539" height="266" key="GridCell.Tab.0.left/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1583885284159" />
+    <state width="2539" height="266" key="GridCell.Tab.0.right" timestamp="1583885284160">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583776109066" />
+    <state width="2539" height="266" key="GridCell.Tab.0.right/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1583885284160" />
     <state x="184" y="86" key="MergeDialog" timestamp="1583165825368">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -180,6 +191,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="672" y="240" key="MultipleFileMergeDialog/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583775940930" />
+    <state x="1102" y="415" key="RollbackChangesDialog" timestamp="1585076411145">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1102" y="415" key="RollbackChangesDialog/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585076411145" />
     <state x="781" y="347" key="SettingsEditor" timestamp="1582404118753">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -188,19 +203,21 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582820009122" />
-    <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583784190039">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1025" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584370754344">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583784190039" />
-    <state x="683" y="299" width="737" height="606" key="find.popup" timestamp="1583776504052">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1025" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1584370754344" />
+    <state x="911" y="402" width="737" height="606" key="find.popup" timestamp="1583898695869">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="683" y="299" width="737" height="606" key="find.popup/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583776504052" />
-    <state x="911" y="402" width="737" height="606" key="find.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582412955223" />
-    <state x="616" y="243" key="run.anything.popup" timestamp="1582748253126">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="911" y="402" width="737" height="606" key="find.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1583898695869" />
+    <state x="821" y="326" key="run.anything.popup" timestamp="1583965499308">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582748253126" />
+    <state x="821" y="326" key="run.anything.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1583965499308" />
     <state x="1209" y="394" key="search.everywhere.popup" timestamp="1582402530768">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -212,6 +229,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/comments/comments.app.js</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/actions/index.js</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

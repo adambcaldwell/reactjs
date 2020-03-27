@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchUser } from '../redux/actions';
 
 /**
  * @component class
@@ -8,11 +7,8 @@ import { fetchUser } from '../redux/actions';
  * @description user information component
  * @author adam.caldwell
  */
+// eslint-disable-next-line react/prefer-stateless-function
 class AuthorHeader extends Component {
-  componentDidMount() {
-    this.props.fetchUser(this.props.userId);
-  }
-
   render() {
     if (!this.props.author) return null;
 
@@ -28,7 +24,7 @@ class AuthorHeader extends Component {
  * @returns {{user: *}}
  */
 const mapStateToProps = (state, ownProps) => {
-  return { author: state.users.find(user => user.id === ownProps.userId) };
+  return { author: state.users.find((user) => user.id === ownProps.userId) };
 };
 
-export default connect(mapStateToProps, { fetchUser })(AuthorHeader);
+export default connect(mapStateToProps, {})(AuthorHeader);

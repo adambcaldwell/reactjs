@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchPosts } from '../redux/actions';
+import { fetchPostsAndUsers } from '../redux/actions';
 import AuthorHeader from './author-header.component';
 
 /**
@@ -13,11 +13,11 @@ import AuthorHeader from './author-header.component';
 /* eslint-disable-next-line react/prefer-stateless-function */
 class PostList extends Component {
   componentDidMount() {
-    this.props.fetchPosts();
+    this.props.fetchPostsAndUsers();
   }
 
   renderList() {
-    return this.props.posts.map(post => {
+    return this.props.posts.map((post) => {
       return (
         <div className="item" key={post.id}>
           <i className=" large middle aligned icon user" />
@@ -38,8 +38,8 @@ class PostList extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return { posts: state.posts };
 };
 
-export default connect(mapStateToProps, { fetchPosts })(PostList);
+export default connect(mapStateToProps, { fetchPostsAndUsers })(PostList);

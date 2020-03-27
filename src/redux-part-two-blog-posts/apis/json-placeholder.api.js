@@ -6,5 +6,5 @@ import axios from 'axios';
  * @author adam.caldwell
  */
 export default axios.create({
-  baseURL: 'https://jsonplaceholder.typicode.com/'
+  baseURL: 'https://jsonplaceholder.typicode.com/',
 });

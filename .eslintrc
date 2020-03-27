@@ -30,6 +30,7 @@
     "array-bracket-spacing": "warn",
     "max-len": ["error", {"code": 120}],
     "no-useless-rename": "error",
+    "no-underscore-dangle": "off",
     "no-return-assign": ["off"],
     "prefer-promise-reject-errors": ["off"],
     "yoda": ["error", "always"],
