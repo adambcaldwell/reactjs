@@ -1,0 +1,46 @@
+{
+  "streams": [
+    {
+      "title": "1st Stream",
+      "description": "1st time is the charm?",
+      "userId": "117115437802774141176",
+      "id": 1
+    },
+    {
+      "title": "Stream Two",
+      "description": "Another one",
+      "userId": "117115437802774141176",
+      "id": 2
+    },
+    {
+      "title": "Stream Three",
+      "description": "Another one",
+      "userId": "117115437802774141176",
+      "id": 3
+    },
+    {
+      "title": "Stream4",
+      "description": "Made it all by myself",
+      "userId": "117115437802774141176",
+      "id": 4
+    },
+    {
+      "title": "Programmatic navigation",
+      "description": "testing out navigation",
+      "userId": "117115437802774141177",
+      "id": 6
+    },
+    {
+      "title": "Streaming component reuse (patch)",
+      "description": "Refactor city (patch)",
+      "userId": "117115437802774141177",
+      "id": 7
+    },
+    {
+      "title": "Testing new create (edited)",
+      "description": "Create me (edited)",
+      "userId": "117115437802774141177",
+      "id": 8
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React CommentsApp](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React StreamingVideoApp](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

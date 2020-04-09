@@ -2,17 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2b25ec-1c00-464d-b65a-ce4bb1fe23ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/api/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/api/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/apis/streams-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/components/google-auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/components/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/components/streams/stream-create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/components/streams/stream-delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/components/streams/stream-edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/components/streams/stream-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/components/streams/stream-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/components/streams/stream-show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/redux/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/redux/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/redux/reducers/auth.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/redux/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/redux/reducers/stream.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/stream-client.app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/apis/json-placeholder.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/apis/json-placeholder.api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/author-header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/author-header.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/post-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/components/post-list.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/posts.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/posts.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/users.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/reducers/users.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +41,12 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="ReactJS Component (class)" />
+        <option value="ReactJS Component (class - basic)" />
+        <option value="Axios API" />
         <option value="Redux Reducer" />
         <option value="JavaScript File" />
+        <option value="ReactJS Component (class - basic - redux)" />
+        <option value="ReactJS Component (functional)" />
       </list>
     </option>
   </component>
@@ -47,7 +67,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -68,15 +87,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="F:\CodeProjects\Work\reactjs-tutorial\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\CodeProjects\Work\reactjs-tutorial\src\streaming-video\streams" />
       <recent name="C:\Users\adam.caldwell\CodeProjects\other\reactjs-tutorial\src\search-form\components\search-bar" />
       <recent name="C:\Users\adam.caldwell\CodeProjects\other\reactjs-tutorial\src\search-form\components\search-results" />
       <recent name="C:\Users\adam.caldwell\CodeProjects\other\reactjs-tutorial\src\search-form" />
       <recent name="C:\Users\adam.caldwell\CodeProjects\other\reactjs-tutorial\src\search-form\components" />
-      <recent name="C:\Users\adam.caldwell\CodeProjects\other\reactjs-tutorial\src\season-display" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -116,7 +135,16 @@
       <workItem from="1585075742737" duration="2190000" />
       <workItem from="1585144202280" duration="2442000" />
       <workItem from="1585238938065" duration="2396000" />
-      <workItem from="1585319619697" duration="8976000" />
+      <workItem from="1585319619697" duration="12291000" />
+      <workItem from="1585509480267" duration="1304000" />
+      <workItem from="1585580973421" duration="16143000" />
+      <workItem from="1585663327196" duration="4540000" />
+      <workItem from="1585750379859" duration="6244000" />
+      <workItem from="1585839423999" duration="14298000" />
+      <workItem from="1585924668983" duration="1879000" />
+      <workItem from="1586184357695" duration="11148000" />
+      <workItem from="1586271566635" duration="6845000" />
+      <workItem from="1586355113747" duration="14072000" />
     </task>
     <task id="LOCAL-00001" summary="worked through search form tutorial">
       <created>1582762449126</created>
@@ -132,37 +160,55 @@
       <option name="project" value="LOCAL" />
       <updated>1582819977175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finishing redux part two, dependency updates, updated eslint rule">
+      <created>1585342607211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585342607211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="KBAN-10796 - branching for work on code sync" />
     <MESSAGE value="worked through comments &amp; season display tutorials" />
     <MESSAGE value="worked through search form tutorial" />
     <MESSAGE value="tidying up apps" />
-    <option name="LAST_COMMIT_MESSAGE" value="tidying up apps" />
+    <MESSAGE value="finishing redux part two, dependency updates, updated eslint rule" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing redux part two, dependency updates, updated eslint rule" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="161" y="66" width="1614" height="874" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1583789035847">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1031" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585603125542">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1031" y="507" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585603125542" />
+    <state x="446" y="122" width="1892" height="1160" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1585859875839">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="161" y="66" width="1614" height="874" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583789035847" />
-    <state x="130" y="63" width="1512" height="894" key="CommitChangelistDialog2" timestamp="1582819975538">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="446" y="122" width="1892" height="1160" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585859875839" />
+    <state x="905" y="299" width="1512" height="894" key="CommitChangelistDialog2" timestamp="1585342604197">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="130" y="63" width="1512" height="894" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582819975538" />
-    <state x="905" y="299" width="1162" height="812" key="CommitChangelistDialog2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582517933867" />
-    <state x="184" y="86" key="DiffContextDialog" timestamp="1582762462859">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="905" y="299" width="1162" height="812" key="CommitChangelistDialog2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585342604197" />
+    <state x="245" y="115" key="DiffContextDialog" timestamp="1585342595561">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582762462859" />
+    <state x="245" y="115" key="DiffContextDialog/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585342595561" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1582819994139">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582819994139" />
+    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose" timestamp="1585342749669">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585342749669" />
     <state width="2539" height="266" key="GridCell.Tab.0.bottom" timestamp="1583885284160">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -195,14 +241,15 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1102" y="415" key="RollbackChangesDialog/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585076411145" />
-    <state x="781" y="347" key="SettingsEditor" timestamp="1582404118753">
+    <state x="781" y="347" key="SettingsEditor" timestamp="1586277112833">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="781" y="347" key="SettingsEditor/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582404118753" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1582820009122">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="781" y="347" key="SettingsEditor/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586277112833" />
+    <state x="736" y="345" key="Vcs.Push.Dialog.v2" timestamp="1585342616877">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582820009122" />
+    <state x="736" y="345" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585342616877" />
     <state x="1025" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584370754344">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -213,15 +260,15 @@
     </state>
     <state x="683" y="299" width="737" height="606" key="find.popup/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583776504052" />
     <state x="911" y="402" width="737" height="606" key="find.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1583898695869" />
-    <state x="821" y="326" key="run.anything.popup" timestamp="1583965499308">
+    <state x="821" y="326" key="run.anything.popup" timestamp="1585888085790">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582748253126" />
-    <state x="821" y="326" key="run.anything.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1583965499308" />
-    <state x="1209" y="394" key="search.everywhere.popup" timestamp="1582402530768">
+    <state x="821" y="326" key="run.anything.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585888085790" />
+    <state x="1209" y="394" width="672" height="676" key="search.everywhere.popup" timestamp="1586203262221">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="1209" y="394" key="search.everywhere.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1582402530768" />
+    <state x="1209" y="394" width="672" height="676" key="search.everywhere.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586203262221" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -233,7 +280,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/redux-part-two-blog-posts/redux/actions/index.js</url>
           <line>20</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

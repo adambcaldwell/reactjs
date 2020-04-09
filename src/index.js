@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
+import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 
 /**
@@ -32,12 +32,29 @@ ReactDOM.render(
 */
 
 // Redux (P2) - Blog Posts
+/*
 import BlogPosts from './redux-part-two-blog-posts/blog-posts-redux.app';
 import reducers from './redux-part-two-blog-posts/redux/reducers';
 
 ReactDOM.render(
   <Provider store={createStore(reducers, applyMiddleware(thunk))}>
     <BlogPosts />
+  </Provider>,
+  document.getElementById('root')
+);
+*/
+
+// Streaming Video App
+import StreamClientApp from './streaming-video/streams/client/stream-client.app';
+import reducers from './streaming-video/streams/client/redux/reducers';
+
+// To start a debug session add '?debug_session=<some_string>' to the URL
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(reducers, composeEnhancers(applyMiddleware(thunk)));
+
+ReactDOM.render(
+  <Provider store={store}>
+    <StreamClientApp>Stream Client App</StreamClientApp>
   </Provider>,
   document.getElementById('root')
 );
