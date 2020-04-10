@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2b25ec-1c00-464d-b65a-ce4bb1fe23ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/rtmpserver/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/rtmpserver/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streaming-video/streams/rtmpserver/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/components/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/components/field.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/components/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/components/language-selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/context-over-redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/contexts/language-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-basics/components/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-basics/components/field.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-basics/components/user-create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-basics/context-example.app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/context-basics/contexts/language-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/using-context/contexts/color-context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streaming-video/streams/client/components/streams/stream-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/components/streams/stream-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streaming-video/streams/client/components/streams/stream-show.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/components/streams/stream-show.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streaming-video/streams/client/stream-client.app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/streaming-video/streams/client/stream-client.app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/season-display/season-display.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/season-display/season-display.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/season-display/season.app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/season-display/season.app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/season-display/spinner.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/season-display/spinner.component.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +33,12 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="ReactJS Component (class)" />
-        <option value="ReactJS Component (class - basic)" />
         <option value="Axios API" />
         <option value="Redux Reducer" />
-        <option value="JavaScript File" />
         <option value="ReactJS Component (class - basic - redux)" />
         <option value="ReactJS Component (functional)" />
+        <option value="JavaScript File" />
+        <option value="ReactJS Component (class - basic)" />
       </list>
     </option>
   </component>
@@ -74,11 +84,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\CodeProjects\Work\reactjs-tutorial\src\using-context\context-basics\contexts" />
+      <recent name="F:\CodeProjects\Work\reactjs-tutorial\src\using-context" />
+      <recent name="F:\CodeProjects\Work\reactjs-tutorial\src\using-context\context-basics" />
       <recent name="F:\CodeProjects\Work\reactjs-tutorial\src\streaming-video\streams" />
       <recent name="C:\Users\adam.caldwell\CodeProjects\other\reactjs-tutorial\src\search-form\components\search-bar" />
-      <recent name="C:\Users\adam.caldwell\CodeProjects\other\reactjs-tutorial\src\search-form\components\search-results" />
-      <recent name="C:\Users\adam.caldwell\CodeProjects\other\reactjs-tutorial\src\search-form" />
-      <recent name="C:\Users\adam.caldwell\CodeProjects\other\reactjs-tutorial\src\search-form\components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -127,7 +137,7 @@
       <workItem from="1585924668983" duration="1879000" />
       <workItem from="1586184357695" duration="11148000" />
       <workItem from="1586271566635" duration="6845000" />
-      <workItem from="1586355113747" duration="23328000" />
+      <workItem from="1586355113747" duration="38175000" />
     </task>
     <task id="LOCAL-00001" summary="worked through search form tutorial">
       <created>1582762449126</created>
@@ -157,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586390669979</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finishing up streaming video application">
+      <created>1586453924275</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586453924275</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +188,8 @@
     <MESSAGE value="tidying up apps" />
     <MESSAGE value="finishing redux part two, dependency updates, updated eslint rule" />
     <MESSAGE value="work on a streaming video application" />
-    <option name="LAST_COMMIT_MESSAGE" value="work on a streaming video application" />
+    <MESSAGE value="finishing up streaming video application" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing up streaming video application" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1031" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585603125542">
@@ -183,11 +201,11 @@
     </state>
     <state x="161" y="66" width="1614" height="874" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583789035847" />
     <state x="446" y="122" width="1892" height="1160" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585859875839" />
-    <state x="905" y="299" width="1512" height="894" key="CommitChangelistDialog2" timestamp="1586390666952">
+    <state x="905" y="299" width="1512" height="894" key="CommitChangelistDialog2" timestamp="1586453921457">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="130" y="63" width="1512" height="894" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582819975538" />
-    <state x="905" y="299" width="1162" height="812" key="CommitChangelistDialog2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586390666952" />
+    <state x="905" y="299" width="1162" height="812" key="CommitChangelistDialog2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586453921457" />
     <state x="245" y="115" key="DiffContextDialog" timestamp="1585342595561">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -197,10 +215,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582819994139" />
-    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose" timestamp="1586390698143">
+    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose" timestamp="1586453934532">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586390698143" />
+    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586453934532" />
     <state width="2539" height="266" key="GridCell.Tab.0.bottom" timestamp="1583885284160">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -237,30 +255,34 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="781" y="347" key="SettingsEditor/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586277112833" />
-    <state x="736" y="345" key="Vcs.Push.Dialog.v2" timestamp="1586390672627">
+    <state x="736" y="345" key="Vcs.Push.Dialog.v2" timestamp="1586453930016">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582820009122" />
-    <state x="736" y="345" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586390672627" />
+    <state x="736" y="345" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586453930016" />
     <state x="1025" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584370754344">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583784190039" />
     <state x="1025" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1584370754344" />
-    <state x="911" y="402" width="737" height="606" key="find.popup" timestamp="1583898695869">
+    <state x="911" y="402" width="737" height="606" key="find.popup" timestamp="1586552751143">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="683" y="299" width="737" height="606" key="find.popup/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583776504052" />
-    <state x="911" y="402" width="737" height="606" key="find.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1583898695869" />
+    <state x="911" y="402" width="737" height="606" key="find.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586552751143" />
+    <state x="920" y="429" width="719" height="990" key="recent.locations.popup" timestamp="1586459944237">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="920" y="429" width="719" height="990" key="recent.locations.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586459944237" />
     <state x="821" y="326" key="run.anything.popup" timestamp="1585888085790">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582748253126" />
     <state x="821" y="326" key="run.anything.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585888085790" />
-    <state x="1209" y="394" width="672" height="676" key="search.everywhere.popup" timestamp="1586203262221">
+    <state x="1209" y="394" width="672" height="676" key="search.everywhere.popup" timestamp="1586459714351">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="1209" y="394" width="672" height="676" key="search.everywhere.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586203262221" />
+    <state x="1209" y="394" width="672" height="676" key="search.everywhere.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586459714351" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

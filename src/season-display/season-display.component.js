@@ -8,12 +8,12 @@ import React from 'react';
 const seasonConfig = {
   summer: {
     text: 'Lets hit the beach',
-    iconName: 'sun'
+    iconName: 'sun',
   },
   winter: {
     text: "Burr it's chilly!",
-    iconName: 'snowflake'
-  }
+    iconName: 'snowflake',
+  },
 };
 
 /**
@@ -35,7 +35,7 @@ const getSeason = (lat, month) => {
  * @param {Object} props      - properties of season display
  * @param {Number} props.lat  - latitude
  */
-const SeasonDisplay = props => {
+const SeasonDisplay = (props) => {
   const season = getSeason(props.lat, new Date().getMonth());
   const { text, iconName } = seasonConfig[season];
 

@@ -1,8 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware, compose } from 'redux';
-import thunk from 'redux-thunk';
 
 /**
  * Generic for ReactJS Tutorial apps
@@ -45,6 +42,11 @@ ReactDOM.render(
 */
 
 // Streaming Video App
+/*
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware, compose } from 'redux';
+import thunk from 'redux-thunk';
+
 import StreamClientApp from './streaming-video/streams/client/stream-client.app';
 import reducers from './streaming-video/streams/client/redux/reducers';
 
@@ -58,3 +60,16 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+*/
+
+// Context Example App
+/*
+import ContextApp from './using-context/context-basics/context-example.app';
+
+ReactDOM.render(<ContextApp>Context App</ContextApp>, document.getElementById('root'));
+*/
+
+// Context over Redux App
+import ContextReduxApp from './using-context/context-as-redux/context-over-redux';
+
+ReactDOM.render(<ContextReduxApp>Context App</ContextReduxApp>, document.getElementById('root'));

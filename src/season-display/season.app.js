@@ -41,7 +41,7 @@ class SeasonApp extends React.Component {
     // state should be initialized here (99% of the time), this is the only place we directly assign state values
     this.state = {
       lat: null,
-      errorMessage: null
+      errorMessage: null,
     };
   }
 
@@ -55,10 +55,10 @@ class SeasonApp extends React.Component {
     // console.log("Component was rendered to screen");
 
     window.navigator.geolocation.getCurrentPosition(
-      position => {
+      (position) => {
         this.setState({ lat: position.coords.latitude });
       },
-      err => {
+      (err) => {
         this.setState({ errorMessage: err.message });
       }
     );
@@ -89,11 +89,9 @@ class SeasonApp extends React.Component {
    * @returns {*}
    */
   renderContent() {
-    if (this.state.errorMessage && !this.state.lat)
-      return <div>Error: {this.state.errorMessage} </div>;
+    if (this.state.errorMessage && !this.state.lat) return <div>Error: {this.state.errorMessage} </div>;
 
-    if (!this.state.errorMessage && this.state.lat)
-      return <SeasonDisplay lat={this.state.lat} />;
+    if (!this.state.errorMessage && this.state.lat) return <SeasonDisplay lat={this.state.lat} />;
 
     return <Spinner message="Please accept location request" />;
   }

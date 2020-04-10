@@ -5,7 +5,7 @@ import React from 'react';
  * @param {Object} props          - properties for the spinner
  * @param {String} props.message  - message to display
  */
-const Spinner = props => {
+const Spinner = (props) => {
   return (
     <div className="ui active dimmer">
       <div className="ui big text loader">{props.message}</div>
@@ -15,7 +15,7 @@ const Spinner = props => {
 
 // Setting a default for the props to display when no message is passed in
 Spinner.defaultProps = {
-  message: 'Loading...'
+  message: 'Loading...',
 };
 
 export default Spinner;
