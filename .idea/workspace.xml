@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2b25ec-1c00-464d-b65a-ce4bb1fe23ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/components/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/components/field.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/components/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/components/language-selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/context-over-redux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-as-redux/contexts/language-context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-basics/components/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-basics/components/field.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-basics/components/user-create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-basics/context-example.app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/context-basics/contexts/language-context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/using-context/contexts/color-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/components/resource-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/components/use-resources.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/components/user-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/hooks.app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/season-display-with-hooks/season-display.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/season-display-with-hooks/season-display.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/season-display-with-hooks/season.app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/season-display-with-hooks/spinner.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/season-display-with-hooks/use-location.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/season-display/season-display.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/season-display/season-display.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/season-display/season.app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/season-display/season.app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/season-display/spinner.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/season-display/spinner.component.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +30,9 @@
         <option value="Axios API" />
         <option value="Redux Reducer" />
         <option value="ReactJS Component (class - basic - redux)" />
+        <option value="ReactJS Component (class - basic)" />
         <option value="ReactJS Component (functional)" />
         <option value="JavaScript File" />
-        <option value="ReactJS Component (class - basic)" />
       </list>
     </option>
   </component>
@@ -52,6 +46,9 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1YB373zpmzWeQXIEAPoH69jVFON" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -67,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mut-ui-140" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -81,14 +78,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="F:\CodeProjects\Work\reactjs-tutorial\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\adamc\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\201.6668.106\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\CodeProjects\Work\reactjs-tutorial\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\CodeProjects\Work\reactjs-tutorial\src\hooks\components" />
       <recent name="F:\CodeProjects\Work\reactjs-tutorial\src\using-context\context-basics\contexts" />
       <recent name="F:\CodeProjects\Work\reactjs-tutorial\src\using-context" />
       <recent name="F:\CodeProjects\Work\reactjs-tutorial\src\using-context\context-basics" />
       <recent name="F:\CodeProjects\Work\reactjs-tutorial\src\streaming-video\streams" />
-      <recent name="C:\Users\adam.caldwell\CodeProjects\other\reactjs-tutorial\src\search-form\components\search-bar" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -137,7 +138,8 @@
       <workItem from="1585924668983" duration="1879000" />
       <workItem from="1586184357695" duration="11148000" />
       <workItem from="1586271566635" duration="6845000" />
-      <workItem from="1586355113747" duration="38175000" />
+      <workItem from="1586355113747" duration="42638000" />
+      <workItem from="1586787751299" duration="11871000" />
     </task>
     <task id="LOCAL-00001" summary="worked through search form tutorial">
       <created>1582762449126</created>
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586453924275</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="learning contexts &amp; how to utilize contexts instead of redux">
+      <created>1586555183663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586555183663</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +198,8 @@
     <MESSAGE value="finishing redux part two, dependency updates, updated eslint rule" />
     <MESSAGE value="work on a streaming video application" />
     <MESSAGE value="finishing up streaming video application" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishing up streaming video application" />
+    <MESSAGE value="learning contexts &amp; how to utilize contexts instead of redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning contexts &amp; how to utilize contexts instead of redux" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1031" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585603125542">
@@ -201,11 +211,11 @@
     </state>
     <state x="161" y="66" width="1614" height="874" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583789035847" />
     <state x="446" y="122" width="1892" height="1160" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585859875839" />
-    <state x="905" y="299" width="1512" height="894" key="CommitChangelistDialog2" timestamp="1586453921457">
+    <state x="905" y="299" width="1512" height="894" key="CommitChangelistDialog2" timestamp="1586555180670">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="130" y="63" width="1512" height="894" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582819975538" />
-    <state x="905" y="299" width="1162" height="812" key="CommitChangelistDialog2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586453921457" />
+    <state x="905" y="299" width="1162" height="812" key="CommitChangelistDialog2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586555180670" />
     <state x="245" y="115" key="DiffContextDialog" timestamp="1585342595561">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -215,10 +225,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582819994139" />
-    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose" timestamp="1586453934532">
+    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose" timestamp="1586555190743">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586453934532" />
+    <state x="1140" y="618" key="Github.Dialog.Accounts.Choose/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586555190743" />
     <state width="2539" height="266" key="GridCell.Tab.0.bottom" timestamp="1583885284160">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -255,11 +265,11 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="781" y="347" key="SettingsEditor/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586277112833" />
-    <state x="736" y="345" key="Vcs.Push.Dialog.v2" timestamp="1586453930016">
+    <state x="736" y="345" key="Vcs.Push.Dialog.v2" timestamp="1586555185769">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582820009122" />
-    <state x="736" y="345" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586453930016" />
+    <state x="736" y="345" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586555185769" />
     <state x="1025" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584370754344">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -279,10 +289,10 @@
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1582748253126" />
     <state x="821" y="326" key="run.anything.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1585888085790" />
-    <state x="1209" y="394" width="672" height="676" key="search.everywhere.popup" timestamp="1586459714351">
+    <state x="1209" y="394" width="672" height="676" key="search.everywhere.popup" timestamp="1586812676409">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="1209" y="394" width="672" height="676" key="search.everywhere.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586459714351" />
+    <state x="1209" y="394" width="672" height="676" key="search.everywhere.popup/0.0.2560.1410/2560.232.1920.1200@0.0.2560.1410" timestamp="1586812676409" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

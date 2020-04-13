@@ -70,6 +70,20 @@ ReactDOM.render(<ContextApp>Context App</ContextApp>, document.getElementById('r
 */
 
 // Context over Redux App
+/*
 import ContextReduxApp from './using-context/context-as-redux/context-over-redux';
 
 ReactDOM.render(<ContextReduxApp>Context App</ContextReduxApp>, document.getElementById('root'));
+*/
+
+/*
+// Hooks App
+import HooksApp from './hooks/hooks.app';
+
+ReactDOM.render(<HooksApp>Hooks App</HooksApp>, document.getElementById('root'));
+*/
+
+// Season App (with Hooks)
+import SeasonAppHooks from './season-display-with-hooks/season.app';
+
+ReactDOM.render(<SeasonAppHooks />, document.getElementById('root'));
